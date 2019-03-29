@@ -1,0 +1,54 @@
+/*
+* ----------------------------------------------------------------------------------------
+* 12. Pricing Table
+* ----------------------------------------------------------------------------------------
+*/
+.pricing-area {}
+
+.pricing-box {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+    margin-top: 30px;
+    border: 1px solid rgba(204, 204, 204, .5);
+    -webkit-transition: .3s;
+    transition: .3s;
+}
+
+.pricing-box:hover {
+    border: 1px solid $base_green;
+    -webkit-transition: .3s;
+    transition: .3s;
+}
+
+.pricing-box.price-active {
+    border: 1px solid $base_green;
+    margin-top: 18px;
+}
+
+.pricing-header .plan-title h4 {
+    font-size: 12px;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    background-color:$base_green;
+    padding: 20px 0px;
+    color: $base_white;
+}
+
+.pricing-header .plan-price {
+    font-size: 40px;
+    font-family: "Montserrat", sans-serif;
+    margin-bottom: 10px;
+    color: $base_black1;
+    font-weight: 900;
+}
+
+.plan-features {
+    margin-top: 40px;
+}
+
+.plan-features li {
+    margin: 8px 0;
+    padding-bottom: 15px;
+}

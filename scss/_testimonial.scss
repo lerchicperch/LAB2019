@@ -1,0 +1,45 @@
+/*
+* ----------------------------------------------------------------------------------------
+* 11. Testimonial
+* ----------------------------------------------------------------------------------------
+*/
+.testimonial-area {
+    background: #ECECEC;
+}
+
+.testimonial-list {
+    margin-top: 30px;
+}
+
+.single-testimonial img {
+    width: 200px;
+}
+
+.single-testimonial {
+    padding: 0px 100px;
+    color: $base_black2;
+}
+
+.single-testimonial h6 {
+    margin-top: 20px;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.owl-theme .owl-controls {
+    margin-top: 30px;
+}
+
+.owl-theme .owl-controls .owl-page span {
+    display: block;
+    // width: 20px;
+    height: 20px;
+    margin: 5px 10px;
+    filter: Alpha(Opacity=50);
+    opacity: .5;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+    // border-radius: 50%;
+    border: 2px solid $base_green;
+    // background: $base_green;
+}

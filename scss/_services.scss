@@ -1,0 +1,33 @@
+/*
+* ----------------------------------------------------------------------------------------
+* 05. Services
+* ----------------------------------------------------------------------------------------
+*/
+.service-area {
+    background: #ECECEC;
+}
+
+.single-service {
+    padding-right: 30px;
+    margin-top: 30px;
+    -webkit-transition: all 0.4s ease-out;
+    transition: all 0.4s ease-out;
+    color: $base_black2;
+}
+
+.single-service h4 {
+    font-size: 12px;
+    margin-top: 30px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.single-service i {
+    color: $base_green;
+    font-size: 45px;
+}
+
+.single-service p {
+    margin-top: 20px;
+    margin-bottom: 0;
+}

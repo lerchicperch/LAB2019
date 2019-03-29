@@ -1,0 +1,33 @@
+/*
+* ----------------------------------------------------------------------------------------
+* 07. Call to action
+* ----------------------------------------------------------------------------------------
+*/
+
+.call-to-action-area {
+    padding: 100px 0px;
+    background: url(../img/bg/bg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    z-index: 1;
+}
+
+.call-to-action-area:after {
+    position: absolute;
+    background: rgba(0, 0, 0, .5);
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    content: "";
+    z-index: -1;
+}
+
+.call-to-action-area h2 {
+    color: $base_white;
+}
+
+.call-to-action-area p {
+    color: $base_white;
+}

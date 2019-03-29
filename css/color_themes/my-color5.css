@@ -1,0 +1,129 @@
+/*=====================================
+=            Color-palette            =
+=====================================*/
+/*=================================
+=           scss Variables            =
+=================================*/
+/*  02. Global style */
+.section-title h2:before {
+  background: #FBBC05;
+}
+
+a.read-more {
+  border: 1px solid #FBBC05;
+  background: #FBBC05;
+}
+
+a.read-more:hover {
+  border: 1px solid #FBBC05;
+}
+
+.scrollup {
+  background: #FBBC05;
+}
+
+/*  03. Header */
+.mainmenu .navbar-nav li a:hover {
+  color: #FBBC05;
+}
+
+.menu-bg .logo a {
+  color: #FBBC05;
+}
+
+.menu-bg .mainmenu .navbar-nav li a {
+  color: #FBBC05;
+}
+
+a.slide-btn {
+  background: #FBBC05;
+  border: 1px solid #FBBC05;
+}
+
+a.slide-btn:hover {
+  border: 1px solid #FBBC05;
+}
+
+/*  04. About Us */
+/*  05. Services */
+.single-service i {
+  color: #FBBC05;
+}
+
+/*  06. team */
+.team-social ul li a {
+  background: #FBBC05;
+  border: 1px solid #FBBC05;
+}
+
+.team-social ul li a:hover {
+  border: 1px solid #FBBC05;
+}
+
+/*  07. Call to action */
+/*  08. Fun facts */
+.complete-project-area {
+  background: #FBBC05;
+}
+
+/*  09. Portfolio */
+ul.work li:hover {
+  color: #FBBC05;
+}
+
+ul.work li.active {
+  color: #FBBC05;
+}
+
+.item-overlay {
+  background: rgba(251, 188, 5, 0.7);
+}
+
+/*  10. Testimonial */
+.owl-theme .owl-controls .owl-page span {
+  border: 2px solid #FBBC05;
+}
+
+/*  11. Pricing Table */
+.pricing-box:hover {
+  border: 1px solid #FBBC05;
+}
+
+.pricing-box.price-active {
+  border: 1px solid #FBBC05;
+}
+
+.pricing-header .plan-title h4 {
+  background-color: #FBBC05;
+}
+
+/*  12. Blog news */
+.blog-description {
+  background: #FBBC05;
+}
+
+/*  13. Contact Us */
+.single-contact-details span {
+  color: #FBBC05;
+}
+
+.contact-form input[type='submit'] {
+  border: 1px solid #FBBC05;
+  background: #FBBC05;
+}
+
+.contact-form input[type='submit']:hover {
+  border: 1px solid #FBBC05;
+}
+
+/*  14. Footer */
+.footer-area {
+  background: #e3aa04;
+}
+
+@media only screen and (max-width: 767px) {
+
+    .menu-bg .navbar-toggle .icon-bar {
+        background: #FBBC05;
+    }
+} 

@@ -1,0 +1,64 @@
+/*==============================================================================
+
+	Author Name		:	Fullstackdev
+	Product Name    :	Tichki - Onepage Creative Business Template
+	File Name   	:   style.css
+
+--------------------------------------------------------------------------------
+	CSS Contents
+--------------------------------------------------------------------------------
+
+
+	01. Basic general syltes 
+
+	02. Global style
+
+	03. Header
+
+	04. About Us
+
+	05. Services
+
+	06. team
+
+	07. Call to action
+
+	08. Fun facts
+	 
+	09. Portfolio
+
+	10. Testimonial
+
+	11. Pricing Table
+	
+	12. Blog news
+
+	13. Contact Us
+
+	14. Footer
+
+	15. Responsive
+
+
+
+================================================================================*/
+
+
+
+@import "variables";
+@import "base";
+@import "global";
+@import "header";
+@import "aboutUs";
+@import "services";
+@import "team";
+@import "callToAction";
+@import "funFacts";
+@import "portfolio";
+@import "testimonial";
+@import "pricingTable";
+@import "blogNews";
+@import "contactUs";
+@import "footer";
+
+// @import "responsive";

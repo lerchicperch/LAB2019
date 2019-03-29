@@ -1,0 +1,97 @@
+/*
+* ----------------------------------------------------------------------------------------
+* 02. Global style
+* ----------------------------------------------------------------------------------------
+*/
+.no-padding {
+    padding: 0
+}
+
+.section-padding {
+padding: 70px 0;
+}
+
+.section-title {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.section-title p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    // padding: 0px 300px;
+}
+
+.section-title h2 {
+    font-size: 30px;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+    font-weight: 600;
+    position: relative;
+    margin-top: 0;
+}
+
+.section-title h2:before {
+    position: absolute;
+    left: 50%;
+    top: 50px;
+    height: 5px;
+    width: 70px;
+    background: $base_green;
+    content: "";
+    z-index: 1;
+    margin-left: -35px;
+}
+
+.section-title p {
+    font-weight: 300;
+}
+
+.white-title {
+    color: $base_white;
+}
+
+a.read-more {
+    margin-top: 20px;
+    display: inline-block;
+    color: $base_white;
+    padding: 10px 25px;
+    border: 1px solid $base_green;
+    text-transform: uppercase;
+    font-size: 12px;
+    background: $base_green;
+}
+
+a.read-more:hover {
+    color: $base_black2;
+    -webkit-transition: .3s;
+    transition: .3s;
+    border: 1px solid $base_green;
+    background: transparent;
+}
+
+.scrollup {
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    font-size: 20px;
+    color: $base_white;
+    text-align: center;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    line-height: 42px;
+    cursor: pointer;
+    display: none;
+    z-index: 2;
+    background: $base_green;
+}
+
+.scrollup:hover {
+    box-shadow: 0 3px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+    -webkit-transition: all 0.4s ease-out;
+    transition: all 0.4s ease-out;
+}
+
+

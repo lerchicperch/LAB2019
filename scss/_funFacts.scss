@@ -1,0 +1,28 @@
+/*
+* ----------------------------------------------------------------------------------------
+* 09. Fun facts
+* ----------------------------------------------------------------------------------------
+*/
+.complete-project-area {
+    background: $base_green;
+}
+
+.single-project-complete {
+    color: $base_white;
+}
+
+.single-project-complete i {
+    font-size: 50px;
+}
+
+.single-project-complete h2 {
+    font-size: 20px;
+    margin: 20px 0px;
+    font-weight: 400;
+}
+
+.single-project-complete h6 {
+    text-transform: uppercase;
+    font-size: 14px;
+    color: $base_white;
+}

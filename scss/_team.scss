@@ -1,0 +1,55 @@
+/*
+* ----------------------------------------------------------------------------------------
+* 06. team
+* ----------------------------------------------------------------------------------------
+*/
+
+.team-area {}
+
+.single-team {
+    margin-top: 30px;
+}
+
+.single-team img {
+    width: 100%;
+}
+
+.single-team h4 {
+    margin: 0;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.team-description {
+    margin-top: 15px;
+}
+
+.team-social ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.team-social ul li {
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.team-social ul li a {
+    display: block;
+    color: $base_white;
+    font-size: 16px;
+    background: $base_green;
+    height: 30px;
+    width: 30px;
+    text-align: center;
+    line-height: 32px;
+    border: 1px solid $base_green;
+    padding-left: 1px;
+}
+
+.team-social ul li a:hover {
+    color: #333;
+    border: 1px solid $base_green;
+    background: transparent;
+}

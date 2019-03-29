@@ -1,0 +1,93 @@
+/*
+* ----------------------------------------------------------------------------------------
+* 14. Contact Us
+* ----------------------------------------------------------------------------------------
+*/
+
+.single-contact-details {
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+.single-contact-details h4 {
+    margin-top: 20px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 12px;
+}
+
+.single-contact-details span {
+    font-size: 30px;
+    color: $base_green;
+}
+
+.form-control {
+    display: block;
+    border: 0px;
+    width: 100%;
+    height: 45px;
+    padding: 5px 0px;
+    font-size: 16px;
+    line-height: 1.42857143;
+    color: $base_black2;
+    background-color: $base_white;
+    background-image: none;
+    border-radius: 0px;
+    box-shadow: none;
+    border-bottom: 1px solid rgba(0, 0, 0, .5);
+    margin-bottom: 25px;
+}
+
+.form-control:focus {
+    border-color: $base_black1;
+    outline: 0;
+    box-shadow: none;
+}
+.contact-form input[type='submit'] {
+    display: inline-block;
+    color: $base_white;
+    padding: 12px 20px;
+    border: 1px solid $base_green;
+    text-transform: uppercase;
+    font-size: 12px;
+    background: $base_green;
+    border-radius: 0;
+    font-weight: 700;
+    letter-spacing: 3px;
+}
+
+.contact-form input[type='submit']:hover {
+    color: $base_black2;
+    border: 1px solid $base_green;
+    background: transparent;
+    transition: .3s;
+}
+
+.success {
+	background: #50B948;
+	color: $base_white;
+	font-weight: 700;
+	padding: 20px;
+	text-align: center;
+}
+
+.btn-contact-bg{
+    outline: 0;
+}
+
+/*////////////////////////////////////////
+//////////////////////////////////////////
+//  GOOGLE MAPS SECTION
+/////////////////////////////////////////
+///////////////////////////////////////*/
+
+#map {
+    width: 100%;
+    height: 100%;
+    height: 500px;
+}
+@media  (max-width: 480px) {
+    #map {
+        display: none;
+    }
+}

@@ -1,0 +1,47 @@
+/*
+* ----------------------------------------------------------------------------------------
+* 15. Footer
+* ----------------------------------------------------------------------------------------
+*/
+.footer-area  {
+    background: $base_green;
+}
+
+.footer-text h6 {
+    text-transform: capitalize;
+    letter-spacing: 3px;
+    color: $base_white;
+}
+
+.footer-social-link {
+    margin-bottom: 10px;
+}
+
+.footer-social-link ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.footer-social-link ul li {
+    display: inline-block;
+    margin: 0px 10px;
+}
+.footer-social-link ul li i{
+    font-size: 16px;
+}
+.footer-social-link ul li a {
+    display: block;
+    color: $base_white;
+}
+
+.footer-social-link ul li a:hover {
+    color: $base_black1;
+}
+
+.footer-area .footer-info h6{   
+    display: inline-block;
+    padding: 0 15px;
+    color: #ccc;
+
+}

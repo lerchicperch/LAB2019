@@ -1,0 +1,31 @@
+/*
+* ----------------------------------------------------------------------------------------
+* 13. Blog news
+* ----------------------------------------------------------------------------------------
+*/
+.blog-area {
+    background: $base_gray;
+}
+
+.single-blog {
+    margin-top: 30px;
+    h4{
+       margin-top: 0px;
+         padding: 18px 20px;
+        text-transform: uppercase;
+        display: block;
+        color: $base_white;
+        text-align: center;
+        font-size: 14px;
+    }
+}
+
+.blog-description {
+    background: $base_green;
+}
+
+
+.blog-description h4:hover {
+    color: $base_black2;
+    transition: .3s;
+}
